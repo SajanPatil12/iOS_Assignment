@@ -16,9 +16,9 @@ class ViewController: UIViewController,UITableViewDataSource {
     
     var dataArray:[Country] = []
 
-    fileprivate let countryCellReuseIdentifier = "CountryTableViewCellIdentifier"
-    fileprivate let dataList = CountryDatasource.dataList()
-    fileprivate let countryTableview = UITableView()
+    let countryCellReuseIdentifier = "CountryTableViewCellIdentifier"
+    let dataList = CountryDatasource.dataList()
+    let countryTableview = UITableView()
 
     override func viewDidLoad() {
         super.viewDidLoad()
